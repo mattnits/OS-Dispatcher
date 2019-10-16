@@ -1,7 +1,6 @@
 /*
 dispatcher.c
 
-Dispatch Algorithm : ....
 */
 
 #include <string.h>
@@ -10,23 +9,14 @@ Dispatch Algorithm : ....
 
 #define MAX_LINE_LENGTH 100
 
-/*
-Any required standard libraries and your header files here
-*/
+
 #include "priority_queue.h"
 #include "queue.h"
 #include "process.h"
-//INPUT: Start, ID, Run Time, Exchange Time with HD
-//       100	12	800		500
-//       300	11	1000		500
-//       700	13	800		
-//OUTPUT: ID, Run Time, Ready, Blocked
+
 
 void dispatcher(FILE *fd, int harddrive){
-    /*
-        Your code here.
-        You may edit the following code
-    */
+    
     char line_buffer[MAX_LINE_LENGTH];
     int start_time, run_time, process_id, num_exchanges, exchange_time, exchange[100], i = 0, timer = 0;
     char *token;
