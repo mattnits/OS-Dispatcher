@@ -1,13 +1,9 @@
 /*
 dispatcher.c
 
-Student Name : Matthew Nitsopoulos
-Student ID # : 170673880
-
 Dispatch Algorithm : ....
 */
-//C:\Users\mattn\OneDrive - mylaurier.ca\CP386\Asgn1
-//FIX TEST 1, 5
+
 #include <string.h>
 #include <stddef.h>
 #include <stdio.h>
